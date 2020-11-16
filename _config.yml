@@ -1,5 +1,2 @@
 theme: jekyll-theme-cayman
 title: openvpn中文文档
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
