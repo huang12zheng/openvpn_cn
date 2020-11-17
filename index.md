@@ -21,34 +21,70 @@ source from [openvpn文档](https://openvpn.net/community-resources/)
 [ethernet-bridging](https://openvpn.net/community-resources/ethernet-bridging/)
 
 [扩展VPN的范围，使其在客户端或服务器子网上包括其他计算机。](expanding-the-scope-of-the-vpn.md)
-[加强OpenVPN安全性]()
-[2倍如何]()
-[控制正在运行的OpenVPN进程]()
-[实施负载平衡/故障转移配置]()
 
-[安装OpenVPN]()
-[管理界面]()
-[邮件列表]()
-[注意-TAP-Windows驱动程序和CIPE驱动程序之间的区别]()
-[注-以太网桥接，Windows客户端，Linux服务器]()
-[注意-通过DHCP自动设置TAP-Windows地址/子网]()
-[注-以太网桥接，网桥位于Windows一侧。]()
-[编号专用子网]()
-[OpenVPN加密层]()
-[OpenVPN徽标和图标]()
-[Windows上的OpenVPN注意事项]()
-[OpenVPN协议]()
-[OpenVPN快速入门]()
-[移植说明]()
-[协议兼容性]()
-[将DHCP选项推送给客户端]()
+[加强OpenVPN安全性](hardening-openvpn-security.md)
+[V2如何使用]()
 
-[RSA密钥管理]()
-[将OpenVPN作为Windows服务运行]()
-[从控制台窗口运行OpenVPN]()
-[设置路由]()
+[控制正在运行的OpenVPN进程](controlling-a-running-openvpn-process.md)
 
-[静态密钥迷你HOWTO]()
-[Subversion储存库]()
-[源代码分发中包含的标准INSTALL文件]()
-[使用其他身份验证方法]()
+[实施负载平衡/故障转移配置](implementing-a-load-balancing-failover-configuration.md)
+
+
+[Management Interface](https://openvpn.net/community-resources/management-interface/)
+
+[mailing-lists(邮件列表)](https://openvpn.net/community-resources/mailing-lists/)
+
+注意-TAP-Windows驱动程序和CIPE驱动程序之间的区别
+[Cn](community-resources/notes-differences-between-tap-windows-driver-and-cipe-driver.md)
+[En](https://openvpn.net/community-resources/notes-differences-between-tap-windows-driver-and-cipe-driver/)
+
+[Notes -- Ethernet bridging, Windows client, Linux Server](https://openvpn.net/community-resources/notes-ethernet-bridging-windows-client-linux-server/)
+
+[Notes -- Setting TAP-Windows address/subnet automatically via DHCP](https://openvpn.net/community-resources/notes-setting-tap-windows-address-subnet-automatically-via-dhcp/)
+
+[Notes -- Ethernet bridging, with the bridge occurring on the Windows side](https://openvpn.net/community-resources/notes-ethernet-bridging-with-the-bridge-occurring-on-the-windows-side/)
+
+[编号专用子网](numbering-private-subnets.md)
+
+OpenVPN加密层[En](https://openvpn.net/community-resources/openvpn-cryptographic-layer/)
+
+OpenVPN徽标和图标[En](https://openvpn.net/community-resources/openvpn-logos-and-icons/)
+
+Windows上的OpenVPN注意事项[En](https://openvpn.net/community-resources/openvpn-on-windows-notes/)
+
+OpenVPN协议[En](https://openvpn.net/community-resources/openvpn-protocol/)
+
+[OpenVPN快速入门](openvpn-quickstart.md)
+
+移植说明[En](https://openvpn.net/community-resources/porting-notes/)
+
+协议兼容性[En](https://openvpn.net/community-resources/protocol-compatibility/)
+
+[将DHCP选项推送给客户端](pushing-dhcp-options-to-clients.md)
+
+
+RSA密钥管理[En](https://openvpn.net/community-resources/rsa-key-management/)
+
+将OpenVPN作为Windows服务运行[En](https://openvpn.net/community-resources/running-openvpn-as-a-windows-service/)
+
+从控制台窗口运行OpenVPN[略](https://openvpn.net/community-resources/running-openvpn-from-a-console-window/)
+
+[设置路由](setting-up-routing.md)
+
+静态简化版HOWTO
+
+Subversion储存库[En](https://openvpn.net/community-resources/subversion-repository/)
+
+源代码分发中包含的标准INSTALL文件[En](https://openvpn.net/community-resources/the-standard-install-file-included-in-the-source-distribution/)
+
+[使用其他身份验证方法](using-alternative-authentication-methods.md)
+
+
+[Installing OpenVPN](https://openvpn.net/community-resources/installing-openvpn/)
+
+
+> 不耐烦的用户不妨直接跳到示例配置文件：
+
+[服务器配置文件](https://github.com/OpenVPN/openvpn/blob/master/sample/sample-config-files/server.conf)
+
+[客户端配置文件](https://github.com/OpenVPN/openvpn/blob/master/sample/sample-config-files/client.conf)
