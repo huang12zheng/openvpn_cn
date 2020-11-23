@@ -88,3 +88,7 @@ Subversion储存库[En](https://openvpn.net/community-resources/subversion-repos
 [服务器配置文件](https://github.com/OpenVPN/openvpn/blob/master/sample/sample-config-files/server.conf)
 
 [客户端配置文件](https://github.com/OpenVPN/openvpn/blob/master/sample/sample-config-files/client.conf)
+
+附录:
+
+[Easy-Rsa](easy-rsa3/index.md)
